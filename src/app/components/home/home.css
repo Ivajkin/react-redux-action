@@ -1,0 +1,25 @@
+.app-comp--home {
+  padding-top: 25vh; }
+  .app-comp--home .home-inner {
+    min-height: 300px;
+    padding: 1rem;
+    text-align: center;
+    background: white;
+    border-radius: 15px; }
+  .app-comp--home a {
+    display: block;
+    padding: 2rem 0;
+    width: 300px;
+    margin: 0 auto 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    font-weight: 700;
+    transition: background 1s;
+    background: #87e0fd;
+    border-radius: 15px;
+    cursor: pointer; }
+    .app-comp--home a:hover {
+      background: #05abe0; }
+
+/*# sourceMappingURL=home.css.map */

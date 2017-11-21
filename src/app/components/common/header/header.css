@@ -1,0 +1,17 @@
+.app-comp--header {
+  box-sizing: border-box;
+  border-bottom: 1px gray;
+  background: white; }
+  .app-comp--header a {
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 1rem 0.7rem;
+    text-decoration: none;
+    color: black;
+    transition: background 0.5s; }
+    .app-comp--header a:hover {
+      background: #d4e8ff; }
+    .app-comp--header a[aria-current="true"] {
+      background: rgba(212, 232, 255, 0.5); }
+
+/*# sourceMappingURL=header.css.map */
