@@ -1,0 +1,30 @@
+:host {
+  display: block;
+}
+
+.app-comp--header {
+  box-sizing: border-box;
+  border-bottom: 1px gray;
+
+  background: white;
+
+  a {
+    display: inline-block;
+    box-sizing: border-box;
+
+    padding: 1em 0.7em;
+
+    text-decoration: none;
+    color: black;
+
+    transition: background 0.5s;
+
+    &:hover {
+      background: #d4e8ff;
+    }
+    &[aria-current="true"],
+    &.is-active {
+      background: transparentize(#d4e8ff, 0.5);
+    }
+  }
+}
